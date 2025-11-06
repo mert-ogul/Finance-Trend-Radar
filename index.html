@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Trend Radar</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="radar-container">
+                <svg id="radar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="geometricPrecision">
+                    <g id="bg"></g>
+                    <g id="sweep"></g>
+                    <g id="points"></g>
+                    <g id="labels"></g>
+                    <g id="hud"></g>
+                </svg>
+            </div>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-dot legend-dot-tech"></div>
+                    <span class="legend-label">Technology Trend</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-dot legend-dot-biz"></div>
+                    <span class="legend-label">Social & Business Trend</span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Tooltip (optional) -->
+    <div id="tooltip" role="tooltip" aria-hidden="true"></div>
+
+    <!-- Modal dialog -->
+    <div id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close dialog">&times;</button>
+            <h2 id="modal-title" class="modal-title"></h2>
+            <div class="modal-meta"></div>
+            <p class="modal-blurb"></p>
+            <a href="#" class="modal-cta" id="modal-cta-link">Read Full Article</a>
+        </div>
+        <div class="modal-backdrop"></div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+

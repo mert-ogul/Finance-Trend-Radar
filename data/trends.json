@@ -1,0 +1,13 @@
+[
+  {"id":"tokenized-assets","title":"Tokenized Real-World Assets","type":"Technology Trend","impact":"High","adoption":"<5 Years","angle":20,"radius":0.62,"blurb":"On-chain representations of securities, funds, treasuries, and credit products to unlock programmability and fractional liquidity.","link":"#"},
+  {"id":"cbdc","title":"Central Bank Digital Currencies","type":"Social & Business Trend","impact":"High","adoption":"5–10 Years","angle":230,"radius":0.68,"blurb":"Wholesale pilots expand; cross-border settlement rails and policy frameworks mature.","link":"#"},
+  {"id":"rtp","title":"Real-Time Payments (RTP)","type":"Technology Trend","impact":"High","adoption":"<5 Years","angle":65,"radius":0.55,"blurb":"Instant rails (FedNow, PIX, UPI) push T+0 clearing, cash-flow visibility, and new treasury flows.","link":"#"},
+  {"id":"embedded-finance","title":"Embedded Finance","type":"Social & Business Trend","impact":"High","adoption":"<5 Years","angle":200,"radius":0.58,"blurb":"Non-financial platforms bundle payments, lending, and insurance at point-of-need.","link":"#"},
+  {"id":"pp-analytics","title":"Privacy-Preserving Analytics","type":"Technology Trend","impact":"Medium","adoption":"5–10 Years","angle":110,"radius":0.72,"blurb":"MPC, HE, and federated learning enable compliant data collaboration across banks.","link":"#"},
+  {"id":"ai-governance","title":"AI Risk & Model Governance","type":"Social & Business Trend","impact":"High","adoption":"<5 Years","angle":260,"radius":0.50,"blurb":"Regulatory pressure drives controls for explainability, bias, and operational resilience.","link":"#"},
+  {"id":"did-kyc","title":"Decentralized Identity for KYC","type":"Technology Trend","impact":"Medium","adoption":"5–10 Years","angle":150,"radius":0.64,"blurb":"Reusable verifiable credentials reduce onboarding friction and data duplication.","link":"#"},
+  {"id":"climate-stress","title":"Climate Risk Stress Testing","type":"Social & Business Trend","impact":"Medium","adoption":"<5 Years","angle":300,"radius":0.76,"blurb":"Portfolio-level transition and physical risk scenarios embedded into ICAAP.","link":"#"},
+  {"id":"quantum-safe","title":"Quantum-Safe Cryptography","type":"Technology Trend","impact":"High","adoption":"5–10 Years","angle":5,"radius":0.80,"blurb":"PQ algorithms and crypto-agility programs prepare for harvest-now-decrypt-later risk.","link":"#"},
+  {"id":"esg-disclosure","title":"ESG Disclosure Standards","type":"Social & Business Trend","impact":"Medium","adoption":"<5 Years","angle":330,"radius":0.60,"blurb":"ISSB/CSRD reporting converges; data lineage and assurance tooling industrialize.","link":"#"}
+]
+
